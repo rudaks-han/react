@@ -2,7 +2,7 @@ import React from 'react';
 import {Button, Icon, Label, Menu, Table} from 'semantic-ui-react'
 
 
-const CustomerListTableView = () => (
+const UserListTableView = () => (
 	<Table celled>
 		<Table.Header>
 			<Table.Row>
@@ -42,4 +42,4 @@ const CustomerListTableView = () => (
 	</Table>
 );
 
-export default CustomerListTableView;
+export default UserListTableView;

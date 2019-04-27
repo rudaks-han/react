@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Form } from 'semantic-ui-react';
 
-const CustomerInsertFormView = () => (
+const UserEditFormView = () => (
 	<Form>
 		<Form.Field>
 			<label>아이디</label>
@@ -24,4 +24,4 @@ const CustomerInsertFormView = () => (
 	</Form>
 );
 
-export default CustomerInsertFormView;
+export default UserEditFormView;

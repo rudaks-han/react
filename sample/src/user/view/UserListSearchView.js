@@ -11,7 +11,7 @@ const options = [
 
 const floatRightStyle = {"float":"right"};
 
-const CustomerListSearchView = () => (
+const UserListSearchView = () => (
 	<div>
 		<Input type='text' placeholder='검색...' action>
 			<input />
@@ -23,4 +23,4 @@ const CustomerListSearchView = () => (
 
 );
 
-export default CustomerListSearchView;
+export default UserListSearchView;

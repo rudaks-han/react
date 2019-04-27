@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 
-import CustomerInsertFormView from './customer/view/CustomerInsertFormView';
-import CustomerListView from './customer/view/CustomerListView';
-import CustomerEditFormView from "./customer/view/CustomerEditFormView";
+import UserInsertFormView from './user/view/UserInsertFormView';
+import UserListView from './user/view/UserListView';
+import UserEditFormView from "./user/view/UserEditFormView";
 
 function App() {
     let style = {
@@ -14,9 +14,9 @@ function App() {
   return (
 
       <div>
-        <CustomerInsertFormView/>
-        <CustomerEditFormView/>
-        <CustomerListView/>
+        <UserInsertFormView/>
+        <UserEditFormView/>
+        <UserListView/>
       </div>
   );
 }
