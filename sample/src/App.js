@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 
-import CustomerInsertFormView from './view/CustomerInsertFormView';
-import CustomerListView from './view/CustomerListView';
-import CustomerEditFormView from "./view/CustomerEditFormView";
+import CustomerInsertFormView from './customer/view/CustomerInsertFormView';
+import CustomerListView from './customer/view/CustomerListView';
+import CustomerEditFormView from "./customer/view/CustomerEditFormView";
 
 function App() {
     let style = {
